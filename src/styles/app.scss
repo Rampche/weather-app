@@ -1,0 +1,61 @@
+.app {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    padding: 5%;
+    background-color: aliceblue;
+    margin: 10%;
+    border-radius: 15px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.search {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+}
+
+input {
+    width: 50%;
+    padding: 10px;
+    outline: none;
+    border: 1px solid cadetblue;
+    border-radius: 10px;
+}
+
+.cities-list {
+    width: 50%;
+    margin-top: 10px;
+}
+
+button {
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    background-color: cadetblue;
+    color: ghostwhite;
+    font-size: 16px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.forecast-title {
+    align-self: center;
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.forecast {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.day {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
